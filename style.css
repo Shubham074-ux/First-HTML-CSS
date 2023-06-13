@@ -1,0 +1,234 @@
+*{
+   margin: 0;
+   padding: 0;
+      }
+      /* CSS variables */
+      :root {
+        --navbar-height: 59px;
+      }
+      /* navigation bar */
+      #navbar {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0px;
+      }
+      /* navigation bar:logo and image */
+      #logo {
+        margin: 10px 5px;
+        /* padding: 6px 5px; */
+      }
+      #logo img {
+        height: 60px;
+        width: 60px;
+      }
+      /* navigation bar:list style */
+     
+      #navbar ul {
+        font-family: "Baloo Bhai", cursive;
+        display: flex;
+      }
+      #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        opacity: 0.4;
+      }
+      #navbar ul li a:hover {
+        background-color: white;
+        color: black;
+        
+      }
+      #navbar ul li a {
+        display: block;
+        padding: 3px 22px;
+        display: block;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      #navbar ul li {
+        /* display: flex; */
+        list-style: none;
+        font-size: 1.9rem;
+
+      }
+      /* home section */
+      #home {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        padding: -1px 200px;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+      }
+      #home::before {
+        content: "";
+        background: url("food.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 81%;
+        width: 100%;
+        z-index : -1;
+        opacity: 0.89;
+        top: 0px;
+        left: 0px;
+      }
+      #home h1 {
+        color:azure;
+        text-align: center;
+      }
+      #home p {
+        text-align: center;
+        color: antiquewhite;
+        font-size: 1.5rem;
+        font-family: "Bree Serif", cursive;
+      }
+      /* utility classes */
+      .h-primary {
+        font-size: 3rem;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+        font-family: 'Baloo Bhai', cursive;
+      }
+      
+    
+      .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: rgb(241, 76, 76);
+        color: white;
+        border-radius: 12px;
+        margin: 17px;
+        font-size: 23px;
+        cursor: pointer;
+      }
+      .center {
+        text-align: center;
+      }
+      /* services section */
+      #services {
+        margin: 34px;
+        display: flex;
+      }
+      #services .box {
+        /* display: flex; */
+        border: 2px solid brown;
+        padding:-9px;
+        margin: 6px;
+        background-color: rgb(224, 214, 214);
+        height: 285px;
+        border-radius: 18px;
+        /* display: inline-block; */
+        align-items: center;
+       justify-content: center; 
+      }
+
+      #services .box img {
+        height: 80px;
+        display: block;
+        margin:auto;
+        padding: 6px 5px;
+      }
+      
+     #client-section{
+/* height:344px; */
+position: relative;
+     
+}
+     #clients{
+display: flex;
+justify-content: center;
+align-items: center;
+
+     }
+      #clients img{
+        height: 124px;
+
+      }
+      .client-item{
+        padding: 34px;
+
+      }
+      #client-section::before{
+        content: "";
+        position: absolute;
+        background: url('mrjn-photography-YpZ2cj4s0oo-unsplash.jpg') no-repeat center;
+        width: 100%;
+        height: 100%;
+        z-index:-1;
+        opacity: 0.5;
+      }
+      /* contact section */
+      #contact{
+        position: relative ;
+color:black;
+      }
+    #contact::before{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      opacity: 0.3;
+      content: " ";
+      background: url('food.jpg') no-repeat center ;
+      z-index: -1;
+    }
+    #contact-box{
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+    }
+    #contact-box form{
+      width: 40%;
+
+    }
+    #conrtact-box label{
+      font-size: 1.3rem;
+font-family: 'Bree Serif',cursive;
+    }
+    #contact-box input,#contact-box textarea{
+      width: 100%;
+      padding: 0.5rem;
+font-size: 1.2rem;
+    }
+    footer{      
+      display: flex;
+      background: black;
+      color: azure;
+      padding:9px 20px;
+      height: 40px;
+      margin-left:0px;
+    }
+    footer p{
+      justify-content: center;
+      margin-left: 460px;
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+    }
+    #states{
+      background-color: black;
+    }
+    #states .box{
+      /* border: 2px solid brown; */
+        /* padding:0px; */
+        /* margin: 0px; */
+        display: inline-block;
+        background-color: black;
+        height: 248px;
+        width: 33%;
+        /* border-radius: 18px; */
+        /* display: inline-block; */
+        align-items: center;
+        color:rgb(74, 74, 185);
+       justify-content: center; 
+    
+    }
+    

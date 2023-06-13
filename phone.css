@@ -1,0 +1,51 @@
+#navbar{
+    flex-direction:column ;
+}
+#navbar ul li a{
+    padding: 0px 6px;
+    font-size: 1rem;
+}
+#home{
+    height: 314px;
+    padding: 3px 39px;
+    overflow: hidden;
+
+
+}
+#home p {
+    font-size: 13px;
+
+}
+.btn{
+    font-size:16px ;
+    padding: 4px 8px;
+}
+#services{
+flex-direction: column;
+font-size: 23px;
+}
+#services .box{
+    font-size: 1.2rem;
+ height:414px ;
+    /* height: 610px; */
+}
+
+/* client section */
+
+#clients{
+    overflow: hidden;
+}
+#contact-box form{
+    width: 80%;
+}
+#clients img{
+width: 45px;
+padding:0px 7px;
+}
+/* contact us */
+.h-primary{
+    font-size: 20px;
+}
+.client-item{
+    padding: 9px;
+}
